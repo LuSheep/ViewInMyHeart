@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lly="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <com.scu.lly.customviews.view.customimageview.CustomImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lly"
+            android:layout_marginTop="10dp"
+            lly:type="round"
+            lly:roundRadius="30dp"
+            lly:borderWidth="2dp"
+            lly:borderColor="@color/colorAccent"/>
+
+        <com.scu.lly.customviews.view.customimageview.CustomImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/qie"
+            android:layout_marginTop="10dp"
+            lly:type="round"
+            lly:roundRadius="30dp"/>
+
+        <com.scu.lly.customviews.view.customimageview.CustomImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/qie"
+            android:layout_marginTop="10dp"
+            lly:borderWidth="2dp"
+            lly:borderColor="@color/colorAccent"/>
+
+        <com.scu.lly.customviews.view.customimageview.CustomImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/lly"
+            android:layout_marginTop="10dp"
+            lly:type="round"
+            lly:roundRadius="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

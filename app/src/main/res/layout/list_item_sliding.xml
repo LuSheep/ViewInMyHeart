@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.scu.lly.customviews.view.slidingview.SlidingItemLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:id="@+id/id_sliding_item_layout">
+        <!-- 子View1： 这里用户可以实现自己的布局逻辑,需要先用一个布局如LinearLayout、RelativeLayout...作为用户布局逻辑的跟布局，因为 SlidingItemLayout下只能有两个子View-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="hello world"
+                android:gravity="center"
+                android:id="@+id/tv_item_name"/>
+        </LinearLayout>
+        <!-- 子View2： 下面是include进来的侧滑菜单布局，因此，用户可以按需修改侧滑菜单布局-->
+        <include layout="@layout/sliding_menu_layout" />
+    </com.scu.lly.customviews.view.slidingview.SlidingItemLayout>
+</RelativeLayout>
