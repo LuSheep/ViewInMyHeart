@@ -70,4 +70,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void paintDemo(View view){
+        Intent i = new Intent(this,PaintDemoActivity.class);
+        startActivity(i);
+    }
+
 }

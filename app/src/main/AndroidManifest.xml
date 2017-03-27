@@ -28,6 +28,9 @@
         <activity android:name=".ImageLoaderTestActivity" />
         <activity android:name=".PinnedHeaderExpandabeListViewActivity" />
         <activity android:name=".TagFlowActivity" />
+        <activity android:name=".PaintDemoActivity" />
+        <activity android:name=".view.aboutpaint.TestPaintActivity" />
+        <activity android:name=".view.aboutpaint.ClockViewActivity" />
     </application>
 
 </manifest>
