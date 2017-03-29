@@ -6,18 +6,15 @@ import android.os.Bundle;
 import com.scu.lly.customviews.R;
 
 /**
- * 绘制时钟Demo:
- * 主要学习canvas 的旋转、平移操作
- * Created by lusheep on 2017/3/27.
+ * 水波纹效果测试
+ * Created by lusheep on 2017/3/29.
  */
 
-public class ClockViewActivity extends Activity {
+public class WaterWaveActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clockview);
+        setContentView(R.layout.activity_waterwave);
     }
-
-
 }

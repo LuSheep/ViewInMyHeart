@@ -31,6 +31,8 @@
         <activity android:name=".PaintDemoActivity" />
         <activity android:name=".view.aboutpaint.TestPaintActivity" />
         <activity android:name=".view.aboutpaint.ClockViewActivity" />
+        <activity android:name=".view.aboutpaint.GestrueFakeActivity" />
+        <activity android:name=".view.aboutpaint.WaterWaveActivity" />
     </application>
 
 </manifest>

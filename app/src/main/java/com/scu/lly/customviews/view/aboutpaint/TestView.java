@@ -3,7 +3,9 @@ package com.scu.lly.customviews.view.aboutpaint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.DashPathEffect;
 import android.graphics.Paint;
+import android.graphics.Path;
 import android.graphics.Rect;
 import android.graphics.drawable.PaintDrawable;
 import android.util.AttributeSet;
@@ -46,6 +48,7 @@ public class TestView extends View {
 
         Log.d("TAG", "ascent:" + mPaint.ascent() + ", descent:" + mPaint.descent());
 
+        /*
         int baseLineY = 200;
         int baseLineX = 0 ;
 
@@ -80,6 +83,25 @@ public class TestView extends View {
         //写文字
         mPaint.setColor(Color.BLACK);
         canvas.drawText(text, baseLineX, baseLineY, mPaint);
+        */
 
+        Paint paint = getPaint();
+        Path p = new Path();
+        p.moveTo(100, 100);
+        p.lineTo(500, 500);
+        paint.setPathEffect(new DashPathEffect(new float[]{20, 10}, 0));
+
+        canvas.drawPath(p, paint);
+
+
+    }
+
+    private Paint getPaint(){
+        Paint paint = new Paint();
+        paint.setStrokeWidth(4);
+        paint.setColor(Color.GREEN);
+        paint.setStyle(Paint.Style.STROKE);
+        paint.setAntiAlias(true);
+        return paint;
     }
 }
