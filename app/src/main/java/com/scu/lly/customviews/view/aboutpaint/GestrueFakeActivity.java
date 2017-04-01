@@ -3,6 +3,8 @@ package com.scu.lly.customviews.view.aboutpaint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 
 import com.scu.lly.customviews.R;
 
@@ -23,4 +25,5 @@ public class GestrueFakeActivity extends Activity {
     public void reset(View view){
         mView.reset();
     }
+
 }

@@ -29,10 +29,15 @@
         <activity android:name=".PinnedHeaderExpandabeListViewActivity" />
         <activity android:name=".TagFlowActivity" />
         <activity android:name=".PaintDemoActivity" />
+        <activity android:name=".AnimDemoActivity" />
         <activity android:name=".view.aboutpaint.TestPaintActivity" />
         <activity android:name=".view.aboutpaint.ClockViewActivity" />
         <activity android:name=".view.aboutpaint.GestrueFakeActivity" />
         <activity android:name=".view.aboutpaint.WaterWaveActivity" />
+        <activity android:name=".view.aboutpaint.XfermodeActivity" />
+        <activity android:name=".view.anim.TestAnimActivity" />
+        <activity android:name=".view.anim.ListViewItemAnimActivity" />
+        <activity android:name=".QQRedPointViewActivity" />
     </application>
 
 </manifest>

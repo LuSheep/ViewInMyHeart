@@ -58,6 +58,8 @@ public class WaterWaveView extends View {
         mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
 
         mItemHalfWaveLength = mItemWaveLength / 2;
+
+//        startAnim();
     }
 
     @Override

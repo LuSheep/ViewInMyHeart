@@ -9,6 +9,7 @@ import com.scu.lly.customviews.view.aboutpaint.ClockViewActivity;
 import com.scu.lly.customviews.view.aboutpaint.GestrueFakeActivity;
 import com.scu.lly.customviews.view.aboutpaint.TestPaintActivity;
 import com.scu.lly.customviews.view.aboutpaint.WaterWaveActivity;
+import com.scu.lly.customviews.view.aboutpaint.XfermodeActivity;
 
 /**
  * Created by lusheep on 2017/3/26.
@@ -39,6 +40,11 @@ public class PaintDemoActivity extends Activity {
 
     public void waterWaveDemo(View view){
         Intent i = new Intent(this, WaterWaveActivity.class);
+        startActivity(i);
+    }
+
+    public void xfermodeDemo(View view){
+        Intent i = new Intent(this, XfermodeActivity.class);
         startActivity(i);
     }
 }

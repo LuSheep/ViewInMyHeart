@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.scu.lly.customviews.view.tagflow.TagFlowEnhanceView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xfermodeBtns"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+            <com.scu.lly.customviews.view.aboutpaint.XfermodeCircleImageView
+                android:id="@+id/xfermode_circleview"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:visibility="visible"/>
+
+            <com.scu.lly.customviews.view.aboutpaint.XfermodeInvertedView
+                android:id="@+id/xfermode_invertview"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:visibility="gone"/>
+
+            <com.scu.lly.customviews.view.aboutpaint.EraserView
+                android:id="@+id/xfermode_eraseview"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:visibility="gone"/>
+
+            <com.scu.lly.customviews.view.aboutpaint.GuaGuaKaView
+                android:id="@+id/xfermode_guaguakaview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+
+            <com.scu.lly.customviews.view.aboutpaint.CircleWaveView_DSTIN
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:id="@+id/xfermode_circlrwave"/>
+
+            <com.scu.lly.customviews.view.aboutpaint.HeartMapView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:id="@+id/xfermode_heartmapview"/>
+
+            <com.scu.lly.customviews.view.aboutpaint.IrregularWaveView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:id="@+id/xfermode_irregularview"/>
+
+        </LinearLayout>
+
+</LinearLayout>

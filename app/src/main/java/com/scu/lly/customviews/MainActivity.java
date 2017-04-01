@@ -75,4 +75,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void animDemo(View view){
+        Intent i = new Intent(this,AnimDemoActivity.class);
+        startActivity(i);
+    }
+
+    public void redpointDemo(View view){
+        Intent i = new Intent(this,QQRedPointViewActivity.class);
+        startActivity(i);
+    }
+
 }
