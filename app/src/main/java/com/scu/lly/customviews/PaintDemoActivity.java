@@ -7,6 +7,9 @@ import android.view.View;
 
 import com.scu.lly.customviews.view.aboutpaint.ClockViewActivity;
 import com.scu.lly.customviews.view.aboutpaint.GestrueFakeActivity;
+import com.scu.lly.customviews.view.aboutpaint.ShadowBitmapActivity;
+import com.scu.lly.customviews.view.aboutpaint.BitmapShaderDemoActivity;
+import com.scu.lly.customviews.view.aboutpaint.ShimmerTextActivity;
 import com.scu.lly.customviews.view.aboutpaint.TestPaintActivity;
 import com.scu.lly.customviews.view.aboutpaint.WaterWaveActivity;
 import com.scu.lly.customviews.view.aboutpaint.XfermodeActivity;
@@ -45,6 +48,21 @@ public class PaintDemoActivity extends Activity {
 
     public void xfermodeDemo(View view){
         Intent i = new Intent(this, XfermodeActivity.class);
+        startActivity(i);
+    }
+
+    public void shaderBitmapDemo(View view){
+        Intent i = new Intent(this, ShadowBitmapActivity.class);
+        startActivity(i);
+    }
+
+    public void bitmapShaderDemo(View view){
+        Intent i = new Intent(this, BitmapShaderDemoActivity.class);
+        startActivity(i);
+    }
+
+    public void linearGradientDemo(View view){
+        Intent i = new Intent(this, ShimmerTextActivity.class);
         startActivity(i);
     }
 }

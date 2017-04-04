@@ -70,6 +70,44 @@
                 android:text="xfermode的案例"
                 android:onClick="xfermodeDemo"/>
 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="为Bitmap添加自定义颜色的阴影"
+                android:onClick="shaderBitmapDemo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="关于BitmapShader的一些应用"
+                android:onClick="bitmapShaderDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="LinearGradinet之闪动文字"
+                android:onClick="linearGradientDemo"/>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

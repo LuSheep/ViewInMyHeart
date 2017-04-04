@@ -8,6 +8,7 @@ import android.graphics.Path;
 import android.graphics.PointF;
 import android.graphics.Rect;
 import android.graphics.drawable.AnimationDrawable;
+import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -40,6 +41,8 @@ public class RedPointView extends FrameLayout {
     private TextView mNumberTextView;//实现数量的TextView
     private ImageView mExploredImageView;//用于展示爆炸效果的ImageView
     private boolean isAnimStart;//是否可以开始演示爆炸效果
+
+    private Handler mHandler;
 
     public RedPointView(Context context) {
         super(context);
@@ -82,6 +85,8 @@ public class RedPointView extends FrameLayout {
 
         addView(mNumberTextView);
         addView(mExploredImageView);
+
+        mHandler = new Handler();
     }
 
     @Override
@@ -137,7 +142,9 @@ public class RedPointView extends FrameLayout {
             mExploredImageView.setX(mCurPoint.x - mNumberTextView.getWidth() / 2);
             mExploredImageView.setY(mCurPoint.y - mNumberTextView.getHeight() / 2);
             mExploredImageView.setVisibility(VISIBLE);
-            ((AnimationDrawable)(mExploredImageView.getDrawable())).start();
+            AnimationDrawable anim = (AnimationDrawable) mExploredImageView.getDrawable();
+            anim.start();
+            calculateAnimTime(anim);
 
             mNumberTextView.setVisibility(GONE);
         }
@@ -162,6 +169,23 @@ public class RedPointView extends FrameLayout {
         mPath.lineTo(x3, y3);
         mPath.quadTo(controlX, controlY, x4, y4);
         mPath.lineTo(x1, y1);
+    }
+
+    /**
+     * 计算帧动画结束的时间
+     * @param anim
+     */
+    private void calculateAnimTime(AnimationDrawable anim) {
+        int time = 0;
+        for(int i = 0; i < anim.getNumberOfFrames(); i++){
+            time += anim.getDuration(i);
+        }
+        mHandler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mExploredImageView.setVisibility(GONE);
+            }
+        }, time);
     }
 
     @Override

@@ -43,4 +43,12 @@
         <attr name="needDynamicDealMargin" format="boolean" />
         <attr name="isEdgeLeftAndRightViewAssignMargin" format="boolean" />
     </declare-styleable>
+
+    <declare-styleable name="ShadowBitmapView">
+        <attr name="src" format="reference" />
+        <attr name="shadowDx" format="integer" />
+        <attr name="shadowDy" format="integer" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowRadius" format="float" />
+    </declare-styleable>
 </resources>
