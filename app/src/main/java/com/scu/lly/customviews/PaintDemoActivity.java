@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.scu.lly.customviews.view.aboutpaint.ClockViewActivity;
 import com.scu.lly.customviews.view.aboutpaint.GestrueFakeActivity;
+import com.scu.lly.customviews.view.aboutpaint.RadialGradientActivity;
 import com.scu.lly.customviews.view.aboutpaint.ShadowBitmapActivity;
 import com.scu.lly.customviews.view.aboutpaint.BitmapShaderDemoActivity;
 import com.scu.lly.customviews.view.aboutpaint.ShimmerTextActivity;
@@ -63,6 +64,11 @@ public class PaintDemoActivity extends Activity {
 
     public void linearGradientDemo(View view){
         Intent i = new Intent(this, ShimmerTextActivity.class);
+        startActivity(i);
+    }
+
+    public void radialGradientDemo(View view){
+        Intent i = new Intent(this, RadialGradientActivity.class);
         startActivity(i);
     }
 }

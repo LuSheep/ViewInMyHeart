@@ -38,6 +38,7 @@
         <activity android:name=".view.aboutpaint.ShadowBitmapActivity" />
         <activity android:name=".view.aboutpaint.BitmapShaderDemoActivity" />
         <activity android:name=".view.aboutpaint.ShimmerTextActivity" />
+        <activity android:name=".view.aboutpaint.RadialGradientActivity" />
         <activity android:name=".view.anim.TestAnimActivity" />
         <activity android:name=".view.anim.ListViewItemAnimActivity" />
         <activity android:name=".QQRedPointViewActivity" />

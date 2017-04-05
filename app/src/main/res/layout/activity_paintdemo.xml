@@ -107,6 +107,18 @@
                 android:background="@drawable/common_white_gray_btn_bg"
                 android:text="LinearGradinet之闪动文字"
                 android:onClick="linearGradientDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="RadialGradient之水波纹按钮"
+                android:onClick="radialGradientDemo"/>
 
         </LinearLayout>
     </ScrollView>
