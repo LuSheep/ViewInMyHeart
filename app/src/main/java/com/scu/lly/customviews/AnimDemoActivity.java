@@ -5,7 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.scu.lly.customviews.view.anim.ListItemCustomAnimActivity;
 import com.scu.lly.customviews.view.anim.ListViewItemAnimActivity;
+import com.scu.lly.customviews.view.anim.MenuAnimActivity;
 import com.scu.lly.customviews.view.anim.TestAnimActivity;
 
 /**
@@ -27,6 +29,16 @@ public class AnimDemoActivity extends Activity {
 
     public void listViewAnimDemo(View view){
         Intent i = new Intent(this, ListViewItemAnimActivity.class);
+        startActivity(i);
+    }
+
+    public void menuAnimDemo(View view){
+        Intent i = new Intent(this, MenuAnimActivity.class);
+        startActivity(i);
+    }
+
+    public void listCustomDemo(View view){
+        Intent i = new Intent(this, ListItemCustomAnimActivity.class);
         startActivity(i);
     }
 }

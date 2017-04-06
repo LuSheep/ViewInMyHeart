@@ -18,7 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ListView item的进场动画
+ * ListView item的进场动画（使用自带的LayoutAnimation），推荐使用自定义的效果：ListItemCustomAnimActivity。
+ *
+ * 这个效果只会在刚刚创建的时候有，中途添加item是不会再有动画了
  * Created by lusheep on 2017/3/30.
  */
 

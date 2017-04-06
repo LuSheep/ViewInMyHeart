@@ -32,6 +32,30 @@
                 android:background="@drawable/common_white_gray_btn_bg"
                 android:text="ListView进场动画-LayoutAnimation学习"
                 android:onClick="listViewAnimDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="卫星菜单"
+                android:onClick="menuAnimDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="ListView进场动画--自定义的动画效果"
+                android:onClick="listCustomDemo"/>
 
         </LinearLayout>
     </ScrollView>

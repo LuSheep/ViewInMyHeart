@@ -41,6 +41,8 @@
         <activity android:name=".view.aboutpaint.RadialGradientActivity" />
         <activity android:name=".view.anim.TestAnimActivity" />
         <activity android:name=".view.anim.ListViewItemAnimActivity" />
+        <activity android:name=".view.anim.MenuAnimActivity" />
+        <activity android:name=".view.anim.ListItemCustomAnimActivity" />
         <activity android:name=".QQRedPointViewActivity" />
     </application>
 
