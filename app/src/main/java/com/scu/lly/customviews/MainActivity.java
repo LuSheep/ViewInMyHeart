@@ -85,4 +85,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void newStudyerDemo(View view){
+        Intent i = new Intent(this,NewStudyerActivity.class);
+        startActivity(i);
+    }
+
 }

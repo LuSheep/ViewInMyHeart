@@ -30,6 +30,7 @@
         <activity android:name=".TagFlowActivity" />
         <activity android:name=".PaintDemoActivity" />
         <activity android:name=".AnimDemoActivity" />
+        <activity android:name=".NewStudyerActivity" />
         <activity android:name=".view.aboutpaint.TestPaintActivity" />
         <activity android:name=".view.aboutpaint.ClockViewActivity" />
         <activity android:name=".view.aboutpaint.GestrueFakeActivity" />
@@ -44,6 +45,8 @@
         <activity android:name=".view.anim.MenuAnimActivity" />
         <activity android:name=".view.anim.ListItemCustomAnimActivity" />
         <activity android:name=".QQRedPointViewActivity" />
+
+        <activity android:name=".view.newstudyer.PaopaoPopActivity" />
     </application>
 
 </manifest>

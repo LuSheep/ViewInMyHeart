@@ -51,4 +51,11 @@
         <attr name="shadowColor" format="color" />
         <attr name="shadowRadius" format="float" />
     </declare-styleable>
+
+    <declare-styleable name="PaopaoPopView">
+        <attr name="pop_triangle_height" format="integer"/>
+        <attr name="pop_color" format="color" />
+        <attr name="pop_text" format="string" />
+        <attr name="pop_text_color" format="color" />
+    </declare-styleable>
 </resources>
