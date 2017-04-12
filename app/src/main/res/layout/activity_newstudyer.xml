@@ -28,8 +28,44 @@
                 android:padding="20dip"
                 android:gravity="center"
                 android:background="@drawable/common_white_gray_btn_bg"
-                android:text="波浪View"
+                android:text="炫酷Progress"
+                android:onClick="progressAnimDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="波浪View or 优惠券背景"
                 android:onClick="bolangviewDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="抽屉菜单"
+                android:onClick="chouticaidanDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="时速盘"
+                android:onClick="speedPanelDemo"/>
         </LinearLayout>
     </ScrollView>
 

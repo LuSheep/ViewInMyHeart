@@ -47,6 +47,10 @@
         <activity android:name=".QQRedPointViewActivity" />
 
         <activity android:name=".view.newstudyer.PaopaoPopActivity" />
+        <activity android:name=".view.newstudyer.ProgressAnimActivity" />
+        <activity android:name=".view.newstudyer.CouponTestActivity" />
+        <activity android:name=".view.newstudyer.ChoutiMenuActivity" />
+        <activity android:name=".view.newstudyer.SpeedPanelActivity" />
     </application>
 
 </manifest>
