@@ -66,6 +66,79 @@
                 android:background="@drawable/common_white_gray_btn_bg"
                 android:text="时速盘"
                 android:onClick="speedPanelDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="loading view"
+                android:onClick="loadingViewDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="错误动态提示"
+                android:onClick="errorViewDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="360清理动画"
+                android:onClick="clearAnim360Demo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="仿微信下拉眼睛"
+                android:onClick="weixinEyesDemo"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="ListView下拉回弹效果（overScrollBy学习）"
+                android:onClick="overscrollByDemo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="Material风格loadingview"
+                android:onClick="materialloadingviewDemo"/>
         </LinearLayout>
     </ScrollView>
 

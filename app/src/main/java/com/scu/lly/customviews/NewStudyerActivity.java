@@ -6,10 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.scu.lly.customviews.view.newstudyer.ChoutiMenuActivity;
+import com.scu.lly.customviews.view.newstudyer.ClearAnim360Activity;
 import com.scu.lly.customviews.view.newstudyer.CouponTestActivity;
+import com.scu.lly.customviews.view.newstudyer.ErrorViewActivity;
+import com.scu.lly.customviews.view.newstudyer.LoadingViewActivity;
+import com.scu.lly.customviews.view.newstudyer.MaterialLoadingViewActivity;
+import com.scu.lly.customviews.view.newstudyer.OverScrollByDemoActivity;
 import com.scu.lly.customviews.view.newstudyer.PaopaoPopActivity;
 import com.scu.lly.customviews.view.newstudyer.ProgressAnimActivity;
 import com.scu.lly.customviews.view.newstudyer.SpeedPanelActivity;
+import com.scu.lly.customviews.view.newstudyer.WeixinEyesActivity;
 
 /**
  * 新手自定义View实践系列
@@ -46,6 +52,36 @@ public class NewStudyerActivity extends Activity {
 
     public void speedPanelDemo(View view){
         Intent i = new Intent(this, SpeedPanelActivity.class);
+        startActivity(i);
+    }
+
+    public void loadingViewDemo(View view){
+        Intent i = new Intent(this, LoadingViewActivity.class);
+        startActivity(i);
+    }
+
+    public void errorViewDemo(View view){
+        Intent i = new Intent(this, ErrorViewActivity.class);
+        startActivity(i);
+    }
+
+    public void clearAnim360Demo(View view){
+        Intent i = new Intent(this, ClearAnim360Activity.class);
+        startActivity(i);
+    }
+
+    public void weixinEyesDemo(View view){
+        Intent i = new Intent(this, WeixinEyesActivity.class);
+        startActivity(i);
+    }
+
+    public void overscrollByDemo(View view){
+        Intent i = new Intent(this, OverScrollByDemoActivity.class);
+        startActivity(i);
+    }
+
+    public void materialloadingviewDemo(View view){
+        Intent i = new Intent(this, MaterialLoadingViewActivity.class);
         startActivity(i);
     }
 }

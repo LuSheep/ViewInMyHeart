@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#888888">
+
+    <com.scu.lly.customviews.view.newstudyer.WeixinEyesView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/id_weixineyes"
+        android:background="@android:color/black"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="30dp"
+        android:max="100"
+        android:progress="0"
+        android:id="@+id/id_seekbar_weixineyes"/>
+
+</LinearLayout>

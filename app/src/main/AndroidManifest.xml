@@ -51,6 +51,12 @@
         <activity android:name=".view.newstudyer.CouponTestActivity" />
         <activity android:name=".view.newstudyer.ChoutiMenuActivity" />
         <activity android:name=".view.newstudyer.SpeedPanelActivity" />
+        <activity android:name=".view.newstudyer.LoadingViewActivity" />
+        <activity android:name=".view.newstudyer.ErrorViewActivity" />
+        <activity android:name=".view.newstudyer.ClearAnim360Activity" />
+        <activity android:name=".view.newstudyer.WeixinEyesActivity" />
+        <activity android:name=".view.newstudyer.OverScrollByDemoActivity" />
+        <activity android:name=".view.newstudyer.MaterialLoadingViewActivity" />
     </application>
 
 </manifest>
