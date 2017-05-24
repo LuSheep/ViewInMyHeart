@@ -57,6 +57,7 @@
         <activity android:name=".view.newstudyer.WeixinEyesActivity" />
         <activity android:name=".view.newstudyer.OverScrollByDemoActivity" />
         <activity android:name=".view.newstudyer.MaterialLoadingViewActivity" />
+        <activity android:name=".view.newstudyer.SearchLoadingViewActivity" />
     </application>
 
 </manifest>

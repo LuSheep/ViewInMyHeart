@@ -139,6 +139,19 @@
                 android:background="@drawable/common_white_gray_btn_bg"
                 android:text="Material风格loadingview"
                 android:onClick="materialloadingviewDemo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#e4e4e4"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:gravity="center"
+                android:background="@drawable/common_white_gray_btn_bg"
+                android:text="Material风格之搜索loadingview"
+                android:onClick="searchloadingviewDemo"/>
         </LinearLayout>
     </ScrollView>
 

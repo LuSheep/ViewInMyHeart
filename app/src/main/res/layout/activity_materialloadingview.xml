@@ -5,9 +5,18 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="show"
+        android:onClick="showMaterialView"/>
+
     <com.scu.lly.customviews.view.newstudyer.MaterialLoadingView
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:background="@android:color/holo_blue_dark"/>
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:id="@+id/id_materialloadingview"/>
 
 </LinearLayout>

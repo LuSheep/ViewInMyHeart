@@ -14,6 +14,7 @@ import com.scu.lly.customviews.view.newstudyer.MaterialLoadingViewActivity;
 import com.scu.lly.customviews.view.newstudyer.OverScrollByDemoActivity;
 import com.scu.lly.customviews.view.newstudyer.PaopaoPopActivity;
 import com.scu.lly.customviews.view.newstudyer.ProgressAnimActivity;
+import com.scu.lly.customviews.view.newstudyer.SearchLoadingViewActivity;
 import com.scu.lly.customviews.view.newstudyer.SpeedPanelActivity;
 import com.scu.lly.customviews.view.newstudyer.WeixinEyesActivity;
 
@@ -82,6 +83,11 @@ public class NewStudyerActivity extends Activity {
 
     public void materialloadingviewDemo(View view){
         Intent i = new Intent(this, MaterialLoadingViewActivity.class);
+        startActivity(i);
+    }
+
+    public void searchloadingviewDemo(View view){
+        Intent i = new Intent(this, SearchLoadingViewActivity.class);
         startActivity(i);
     }
 }
